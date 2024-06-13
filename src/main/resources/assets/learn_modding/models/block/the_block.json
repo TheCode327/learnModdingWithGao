@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "learn_modding:block/the_block"
+  },
+  "render_type": "translucent"
+}

@@ -1,6 +1,7 @@
 package net.TheCode327.learn_modding;
 
 import com.mojang.logging.LogUtils;
+import net.TheCode327.learn_modding.block.ModBlocks;
 import net.TheCode327.learn_modding.item.ModCreativeModeTabs;
 import net.TheCode327.learn_modding.item.ModItems;
 import net.minecraft.world.item.CreativeModeTabs;
@@ -29,6 +30,8 @@ public class learnToMod
         ModCreativeModeTabs.register(modEventBus);
 
         ModItems.register(modEventBus);
+
+        ModBlocks.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 
