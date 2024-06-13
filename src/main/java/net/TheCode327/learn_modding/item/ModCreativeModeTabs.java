@@ -1,5 +1,6 @@
 package net.TheCode327.learn_modding.item;
 
+import net.TheCode327.learn_modding.block.ModBlocks;
 import net.TheCode327.learn_modding.learnToMod;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
@@ -18,6 +19,7 @@ public class ModCreativeModeTabs {
                     .title(Component.translatable("creativetab.cod_stuff"))
                     .displayItems((pParameters, pOutput) -> {
                         pOutput.accept(ModItems.ChoateDiploma.get());
+                        pOutput.accept(ModBlocks.CobbledSandstone.get());
                         pOutput.accept(ModItems.Danny.get());
                         pOutput.accept(ModItems.MiniCode.get());
                     })
