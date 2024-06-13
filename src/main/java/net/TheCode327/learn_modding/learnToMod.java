@@ -1,6 +1,7 @@
 package net.TheCode327.learn_modding;
 
 import com.mojang.logging.LogUtils;
+import net.TheCode327.learn_modding.item.ModCreativeModeTabs;
 import net.TheCode327.learn_modding.item.ModItems;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
@@ -25,6 +26,8 @@ public class learnToMod
     public learnToMod() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
+        ModCreativeModeTabs.register(modEventBus);
+
         ModItems.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
@@ -42,7 +45,8 @@ public class learnToMod
 
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
-            event.accept(ModItems.ChoateDiploma);
+        //    event.accept(ModItems.ChoateDiploma);
+        //    event.accept(ModItems.Danny);
         }
     }
 

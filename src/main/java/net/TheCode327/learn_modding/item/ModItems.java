@@ -11,7 +11,13 @@ public class ModItems {
     public static final DeferredRegister<Item> ITEMS =
             DeferredRegister.create(ForgeRegistries.ITEMS, learnToMod.MOD_ID);
 
-    public static final RegistryObject<Item> ChoateDiploma = ITEMS.register("choateDiploma",
+    public static final RegistryObject<Item> ChoateDiploma = ITEMS.register("choate_diploma",
+            () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> Danny = ITEMS.register("danny",
+            () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> MiniCode = ITEMS.register("mini_code",
             () -> new Item(new Item.Properties()));
 
     public static void register(IEventBus eventBus) {
