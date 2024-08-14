@@ -25,8 +25,8 @@ public class ModBlocks {
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.YELLOW_CONCRETE)));
 
     public static final RegistryObject<Block> Daniel = registerBlock("daniel",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.WARPED_WART_BLOCK)));
-
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.YELLOW_CONCRETE)));
+//WARPED_WART_BLOCK
 
 
 
