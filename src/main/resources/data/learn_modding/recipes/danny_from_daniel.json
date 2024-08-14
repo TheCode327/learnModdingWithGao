@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "learn_modding:daniel"
+    }
+  ],
+  "result": {
+    "item": "learn_modding:danny",
+    "count": 8
+  }
+}

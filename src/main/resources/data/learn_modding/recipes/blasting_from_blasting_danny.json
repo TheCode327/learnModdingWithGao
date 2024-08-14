@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 20,
+  "experience": 79,
+  "group": "dany",
+  "ingredient": {
+    "item": "learn_modding:danny"
+  },
+  "result": "learn_modding:so_anyway_i_started_blasting"
+}

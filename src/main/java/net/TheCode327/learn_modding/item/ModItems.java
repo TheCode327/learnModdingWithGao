@@ -20,6 +20,9 @@ public class ModItems {
     public static final RegistryObject<Item> MiniCode = ITEMS.register("mini_code",
             () -> new Item(new Item.Properties()));
 
+    public static final RegistryObject<Item> SoAnywayIStartedBlasting = ITEMS.register("so_anyway_i_started_blasting",
+            () -> new Item(new Item.Properties()));
+
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
     }

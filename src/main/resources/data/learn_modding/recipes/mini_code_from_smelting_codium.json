@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 3.27,
+  "group": "codium",
+  "ingredient": {
+    "item": "learn_modding:codium"
+  },
+  "result": "learn_modding:mini_code"
+}

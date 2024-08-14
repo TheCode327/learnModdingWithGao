@@ -20,8 +20,11 @@ public class ModCreativeModeTabs {
                     .displayItems((pParameters, pOutput) -> {
                         pOutput.accept(ModItems.ChoateDiploma.get());
                         pOutput.accept(ModBlocks.CobbledSandstone.get());
+                        pOutput.accept(ModBlocks.Codium.get());
+                        pOutput.accept(ModBlocks.Daniel.get());
                         pOutput.accept(ModItems.Danny.get());
                         pOutput.accept(ModItems.MiniCode.get());
+                        pOutput.accept(ModItems.SoAnywayIStartedBlasting.get());
                     })
                     .build());
 

@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "learn_modding:item/so_anyway_i_started_blasting"
+  }
+}

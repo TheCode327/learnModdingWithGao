@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "DDD",
+    "DDD",
+    "DDD"
+  ],
+  "key": {
+      "D": {
+        "item": "learn_modding:danny"
+      }
+    },
+  "result": {
+    "item": "learn_modding:daniel"
+  }
+}

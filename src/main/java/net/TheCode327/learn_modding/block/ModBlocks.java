@@ -21,6 +21,12 @@ public class ModBlocks {
     public static final RegistryObject<Block> CobbledSandstone = registerBlock("cobbled_sandstone",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.SANDSTONE))); //.sound(soundType.AMYTHEST)
 
+    public static final RegistryObject<Block> Codium = registerBlock("codium",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.YELLOW_CONCRETE)));
+
+    public static final RegistryObject<Block> Daniel = registerBlock("daniel",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.WARPED_WART_BLOCK)));
+
 
 
 
